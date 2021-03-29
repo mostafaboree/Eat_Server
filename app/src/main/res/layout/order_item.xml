@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_order"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/backgroung_good"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp">
+
+
+        <TextView
+            android:id="@+id/tv_order_id"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="#03444555"
+            android:textSize="16sp"
+            android:textColor="#2d2d2d"
+            android:paddingStart="5dp"
+
+            android:paddingBottom="2dp"
+            android:paddingTop="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_order_stut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stutes"
+            android:textSize="16sp"
+            android:textColor="#2d2d2d"
+            android:paddingStart="5dp"
+            android:paddingBottom="2dp"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tv_order_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="01224530844"
+            android:textSize="16sp"
+            android:textColor="#2d2d2d"
+            android:paddingStart="5dp"
+            android:paddingBottom="3dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_order_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" your address"
+            android:textSize="16sp"
+            android:textColor="#2d2d2d"
+            android:paddingStart="5dp"
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
